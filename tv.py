@@ -3,7 +3,7 @@ import tkinter as tk
 import pyautogui
 
 # Replace with your Fire TV's IP address
-FIRE_TV_IP = "10.0.0.76"
+FIRE_TV_IP = "192.0.2.1"
 
 def send_key(key_code):
     command = f"adb shell input keyevent {key_code}"
